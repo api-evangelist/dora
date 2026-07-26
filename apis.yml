@@ -1,7 +1,25 @@
 aid: dora
 name: Dora
-description: Dora is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Dora (Hola Dora) is a Colombian proptech and fintech startup, founded
+  in 2023 and headquartered in Bogota, that acts as a rental guarantee for the residential
+  real-estate market. It underwrites tenants in roughly five minutes over WhatsApp
+  with no guarantor or co-signer, generates a digitally signed lease, and then guarantees
+  the rent to landlords and property managers by paying the monthly amount on a fixed
+  day whether or not the tenant has paid. Its InvestigaDora, ContrataDora and GarantizaDora
+  flows cover tenant screening, electronic contracting, and guaranteed collection,
+  reconciliation and payout for real-estate operators.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://holadora.co/logo_dora_transparente.png
 url: https://raw.githubusercontent.com/api-evangelist/dora/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +27,23 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-founders:
+- Diego Jimenez
+- Felipe Clavijo
+- Sebastian Reyes
+- Federico Garzon
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Real Estate
+- PropTech
+- Fintech
+- Rental
+- Colombia
+- Property Management
+- Payments
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +51,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/dora-domain-security.yml
 - type: Website
   url: https://holadora.co
+- type: LinkedIn
+  url: https://co.linkedin.com/company/hola-dora
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
