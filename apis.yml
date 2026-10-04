@@ -48,7 +48,7 @@ created: '2026-07-17'
 modified: '2026-07-18'
 tags:
 - Company
-- Real-Estate
+- Real Estate
 - PropTech
 - Fintech
 - Rentals
@@ -64,6 +64,7 @@ tags_raw:
 - Colombia
 - Property Management
 - Payments
+- Real-Estate
 apis: []
 maintainers:
 - FN: Kin Lane
